@@ -2,7 +2,7 @@ This is a repository for a Programming Tools course - git usage and cooperation.
 
 To compile:  
 Have `cmake` and `make` installed.  
-run `cmake .` followed by `make` in the repository folder
+Run `cmake .` followed by `make` in the repository folder.
 
 Included solutions:  
 1.c - determine if more positive or negative numbers from four given inputs  
