@@ -16,7 +16,7 @@ int main() {
             o1 = i2 * i3 / 2;
             break;
         case 2:
-            o1 = pow(i2, 2);
+            o1 = i2 * i2;
             break;
         case 3:
             o1 = i2 * i3;
