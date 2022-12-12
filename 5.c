@@ -1,30 +1,31 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    int i1;
-    float i2, i3, o1;
+    int shape;
+    float base, height, area;
     printf("Wybierz ksztalt:\n1 - trojkat\n2 - kwadrat\n3 - prostokat\n:");
-    scanf("%d", &i1);
+    scanf("%d", &shape);
     printf("Podaj wymiary ksztaltu\n:");
-    scanf("%f", &i2);
-    if (i1 != 2) {
+    scanf("%f", &base);
+    if (shape != 2) {
         printf(":");
-        scanf("%f", &i3);
+        scanf("%f", &height);
     }
-    switch (i1) {
+    switch (shape) {
         case 1:
-            o1 = i2 * i3 / 2;
+            area = base * height / 2;
             break;
         case 2:
-            o1 = i2 * i2;
+            area = base * base;
             break;
         case 3:
-            o1 = i2 * i3;
+            area = base * height;
             break;
         default:
             printf("Nieprawidlowy ksztalt");
             return 1;
     }
-    printf("Pole: %f", o1);
+    printf("Pole: %f\n", area);
     return 0;
 }
+
