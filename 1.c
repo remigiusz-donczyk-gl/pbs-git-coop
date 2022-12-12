@@ -21,3 +21,27 @@ int main() {
     }
     return 0;
 }
+/*
+#include <stdio.h>
+int ile;
+float liczba,nieujemne,ujemne;
+printf("podaj ile liczb chcesz wprowadzic");
+scanf("%d",&d);
+int i=0;
+for (i;i<ilosc;i++){
+  printf("podaj liczbe/n");
+  scanf("%f",&liczba);
+    if(liczba>=0){
+	nieujemne++;
+    }else{
+      ujemne++;
+     }
+ }
+if (ujemne>nieujemne){
+printf("wiecej jest liczb ujemnych");
+}else if(nieujemne>ujemne){
+printf("wiecej jest liczb nieujemnych");
+}else{printf("liczb ujemnych i nieujemnych jest tyle samo");
+
+return 0;}
+*/
