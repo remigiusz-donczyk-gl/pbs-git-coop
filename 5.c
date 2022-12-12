@@ -25,7 +25,7 @@ int main() {
             printf("Nieprawidlowy ksztalt");
             return 1;
     }
-    printf("Pole: %f", wynik);
+    printf("Pole: %f\n", wynik);
     return 0;
 }
 
